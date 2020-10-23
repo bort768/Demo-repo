@@ -50,6 +50,13 @@ namespace Zadanie_1_programowanie_obiektowe
                     float szerokosc = 0;
 
 
+                    if(i == 4)
+                    {
+                        wysokoscFigury3D = dlugosc;
+                        szerokosc = dlugosc;
+                    }
+
+
                     // niepotrzebana Ci szerokosc w kawdracie lub trójkacie 
                     if (i != 1 & i != 3 & i != 4)
                     {
@@ -121,24 +128,31 @@ namespace Zadanie_1_programowanie_obiektowe
             {
                 case 0:
                     Kwadrat kwadrat = new Kwadrat(a);
-                    Console.WriteLine("Pole kwadrata wynosi: " + kwadrat.ObliczPole() + " cm^2");
+                    //Console.WriteLine("Pole kwadrata wynosi: " + kwadrat.ObliczPole() + " cm^2");
+                    Console.WriteLine(kwadrat.ToString());
                     break;
                 case 1:
                     Prostokat prostokat = new Prostokat(a, b);
-                    Console.WriteLine("Pole Prostokąta wynosi: " + prostokat.ObliczPole() + " cm^2");
+                    //Console.WriteLine("Pole Prostokąta wynosi: " + prostokat.ObliczPole() + " cm^2");
+                    Console.WriteLine(prostokat.ToString());
                     break;
                 case 2:
                     Trojkat trojkat = new Trojkat(a, h);
                     Console.WriteLine("Pole trójkąt wynosi: " + trojkat.ObliczPole() + " cm^2");
+                    Console.WriteLine(trojkat.ToString());
                     break;
                 case 3:
                     var klocek = new Graniastoslup(a, b, wysokocsFigury3D);
-                    Console.WriteLine("Pole szescianiu wynosi: " + klocek.ObliczPoleSzescian() + " cm^2");
+                    //Console.WriteLine("Pole szescianiu wynosi: " + klocek.ObliczPoleSzescian() + " cm^2");
+                    Console.WriteLine(klocek.ToString());
+                    Console.WriteLine(Graniastoslup.ZobaczWielkosc(klocek));
                     break;
                 case 4:
                     var prostopadloscian = new Graniastoslup(a, b, wysokocsFigury3D);
-                    Console.WriteLine("Pole szescianiu wynosi: "
-                        + prostopadloscian.ObliczPoleProstopadloscianu() + " cm^2");
+                   //Console.WriteLine("Pole szescianiu wynosi: "
+                   //    + prostopadloscian.ObliczPoleProstopadloscianu() + " cm^2");
+                    Console.WriteLine(prostopadloscian.ToString());
+                    Console.WriteLine(Graniastoslup.ZobaczWielkosc(prostopadloscian));
                     break;
 
 

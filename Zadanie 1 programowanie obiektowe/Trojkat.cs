@@ -19,7 +19,7 @@ namespace Zadanie_1_programowanie_obiektowe
         /// <param name="eWysokosc">
         /// Podaj wysokosc trójkąt
         /// </param>
-        public Trojkat(float eDlugosc, float eWysokosc)
+        public Trojkat(float eDlugosc, float eWysokosc):base("Trojkat")
         {
             Wysokosc = eWysokosc;
             Dlugosc = eDlugosc;
@@ -64,12 +64,22 @@ namespace Zadanie_1_programowanie_obiektowe
         /// <summary>
         /// Pole trójkąta 1/2 * a * h
         /// </summary>
-        override public float ObliczPole()
+        public override float ObliczPole()
         {
             float pole = 1 / 2 * dlugosc * wysokosc;
 
 
             return pole;
         }
+        /// <summary>
+        /// w sumie to samo co na górze tylko że czytelniejsze
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            return base.ToString() + $"ma dlugosc {dlugosc} i wysokosc {wysokosc} jego pole wynosi {1 / 2 * dlugosc * wysokosc}";
+        }
+
+
     }
 }

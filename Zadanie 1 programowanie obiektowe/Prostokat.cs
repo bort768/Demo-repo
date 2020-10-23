@@ -19,7 +19,7 @@ namespace Zadanie_1_programowanie_obiektowe
         /// Podaj szerokosc b trapezu (Zmienna typu float)
         /// </param> 
 
-        public Prostokat(float eDlugosc, float eSzerokosc)
+        public Prostokat(float eDlugosc, float eSzerokosc):base("Prostokat")
         {
 
             Dlugosc = eDlugosc;
@@ -68,10 +68,20 @@ namespace Zadanie_1_programowanie_obiektowe
         /// <summary>
         /// Pole prostokąta 1/2 * (a + b) * h
         /// </summary>
-        override public float ObliczPole()
+        public override float ObliczPole()
         {
             float pole = dlugosc * szerokosc;
             return pole;
         }
+        /// <summary>
+        /// w sumie to samo co na górze tylko że czytelniejsze
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            return base.ToString() + $" ma dlugosc {dlugosc} i szerokosc {szerokosc} jego pole wynosi { dlugosc + szerokosc }";
+        }
+
+
     }
 }

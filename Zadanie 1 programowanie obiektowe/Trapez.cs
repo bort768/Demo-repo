@@ -23,7 +23,7 @@ namespace Zadanie_1_programowanie_obiektowe
         /// Podaj szerokosc b trapezu (Zmienna typu float)
         /// </param> 
 
-        public Trapez(float eDlugosc, float eSzerokosc, float eWysokosc)
+        public Trapez(float eDlugosc, float eSzerokosc, float eWysokosc):base("Trapez")
         {
             Wysokosc = eWysokosc;
             Dlugosc = eDlugosc;
@@ -89,10 +89,19 @@ namespace Zadanie_1_programowanie_obiektowe
         /// <summary>
         /// Pole trapeza 1/2 * (a + b) * h
         /// </summary>
-        override public float ObliczPole()
+        public override float ObliczPole()
         {
             float pole = 1 / 2 * (dlugosc + szerokosc) * wysokosc;
             return pole;
+        }
+
+        /// <summary>
+        /// w sumie to samo co na górze tylko że czytelniejsze
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            return base.ToString() + $" ma dlugosc {dlugosc}, szerokosc {szerokosc} i wyskosc {wysokosc} jego pole wynosi {1 / 2 * (dlugosc + szerokosc) * wysokosc}";
         }
     }
 }

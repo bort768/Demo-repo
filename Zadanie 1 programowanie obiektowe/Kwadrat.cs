@@ -17,7 +17,7 @@ namespace Zadanie_1_programowanie_obiektowe
         /// </param>
 
 
-        public Kwadrat(float eDlugosc)
+        public Kwadrat(float eDlugosc):base("Kwadrat")
         {
 
             Dlugosc = eDlugosc;
@@ -47,7 +47,7 @@ namespace Zadanie_1_programowanie_obiektowe
         /// <summary>
         /// Pole kwadratu a^2
         /// </summary>
-        override public float ObliczPole()
+        public override float ObliczPole()
         {
             float pole = dlugosc * dlugosc;
             return pole;

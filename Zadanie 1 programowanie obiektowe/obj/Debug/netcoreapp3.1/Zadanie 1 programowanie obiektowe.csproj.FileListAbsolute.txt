@@ -1,0 +1,13 @@
+C:\Users\borsu\source\repos\bort768\Szkola-zadania\Zadanie 1 programowanie obiektowe\bin\Debug\netcoreapp3.1\Zadanie 1 programowanie obiektowe.exe
+C:\Users\borsu\source\repos\bort768\Szkola-zadania\Zadanie 1 programowanie obiektowe\bin\Debug\netcoreapp3.1\Zadanie 1 programowanie obiektowe.deps.json
+C:\Users\borsu\source\repos\bort768\Szkola-zadania\Zadanie 1 programowanie obiektowe\bin\Debug\netcoreapp3.1\Zadanie 1 programowanie obiektowe.runtimeconfig.json
+C:\Users\borsu\source\repos\bort768\Szkola-zadania\Zadanie 1 programowanie obiektowe\bin\Debug\netcoreapp3.1\Zadanie 1 programowanie obiektowe.runtimeconfig.dev.json
+C:\Users\borsu\source\repos\bort768\Szkola-zadania\Zadanie 1 programowanie obiektowe\bin\Debug\netcoreapp3.1\Zadanie 1 programowanie obiektowe.dll
+C:\Users\borsu\source\repos\bort768\Szkola-zadania\Zadanie 1 programowanie obiektowe\bin\Debug\netcoreapp3.1\Zadanie 1 programowanie obiektowe.pdb
+C:\Users\borsu\source\repos\bort768\Szkola-zadania\Zadanie 1 programowanie obiektowe\obj\Debug\netcoreapp3.1\Zadanie 1 programowanie obiektowe.csprojAssemblyReference.cache
+C:\Users\borsu\source\repos\bort768\Szkola-zadania\Zadanie 1 programowanie obiektowe\obj\Debug\netcoreapp3.1\Zadanie 1 programowanie obiektowe.AssemblyInfoInputs.cache
+C:\Users\borsu\source\repos\bort768\Szkola-zadania\Zadanie 1 programowanie obiektowe\obj\Debug\netcoreapp3.1\Zadanie 1 programowanie obiektowe.AssemblyInfo.cs
+C:\Users\borsu\source\repos\bort768\Szkola-zadania\Zadanie 1 programowanie obiektowe\obj\Debug\netcoreapp3.1\Zadanie 1 programowanie obiektowe.csproj.CoreCompileInputs.cache
+C:\Users\borsu\source\repos\bort768\Szkola-zadania\Zadanie 1 programowanie obiektowe\obj\Debug\netcoreapp3.1\Zadanie 1 programowanie obiektowe.dll
+C:\Users\borsu\source\repos\bort768\Szkola-zadania\Zadanie 1 programowanie obiektowe\obj\Debug\netcoreapp3.1\Zadanie 1 programowanie obiektowe.pdb
+C:\Users\borsu\source\repos\bort768\Szkola-zadania\Zadanie 1 programowanie obiektowe\obj\Debug\netcoreapp3.1\Zadanie 1 programowanie obiektowe.genruntimeconfig.cache

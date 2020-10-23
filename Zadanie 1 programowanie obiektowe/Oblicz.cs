@@ -7,11 +7,24 @@ namespace Zadanie_1_programowanie_obiektowe
     /// <summary>
     /// Klasa tylko do nadpisywania (żeby zrobić zadanie)
     /// </summary>
-    class Oblicz
+    public abstract class Oblicz
     {
-        public virtual float ObliczPole()
+        public string Name { get; private set; }
+
+        public Oblicz():this("ksztalt")
         {
-            return 0;
+                
         }
+        public Oblicz(string name)
+        {
+            Name = name;
+        }
+        public abstract float ObliczPole();
+
+        public override string ToString()
+        {
+            return Name;
+        }
+
     }
 }

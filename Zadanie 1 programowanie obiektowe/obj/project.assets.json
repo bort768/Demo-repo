@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\borsu\\source\\repos\\bort768\\Szkola-zadania\\Zadanie 1 programowanie obiektowe\\Zadanie 1 programowanie obiektowe.csproj",
+      "projectUniqueName": "C:\\Users\\borsu\\Source\\Repos\\bort768\\Szkola-zadania\\Zadanie 1 programowanie obiektowe\\Zadanie 1 programowanie obiektowe.csproj",
       "projectName": "Zadanie 1 programowanie obiektowe",
-      "projectPath": "C:\\Users\\borsu\\source\\repos\\bort768\\Szkola-zadania\\Zadanie 1 programowanie obiektowe\\Zadanie 1 programowanie obiektowe.csproj",
+      "projectPath": "C:\\Users\\borsu\\Source\\Repos\\bort768\\Szkola-zadania\\Zadanie 1 programowanie obiektowe\\Zadanie 1 programowanie obiektowe.csproj",
       "packagesPath": "C:\\Users\\borsu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\borsu\\source\\repos\\bort768\\Szkola-zadania\\Zadanie 1 programowanie obiektowe\\obj\\",
+      "outputPath": "C:\\Users\\borsu\\Source\\Repos\\bort768\\Szkola-zadania\\Zadanie 1 programowanie obiektowe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\borsu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

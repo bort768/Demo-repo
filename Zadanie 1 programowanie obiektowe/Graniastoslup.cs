@@ -4,11 +4,25 @@ using System.Text;
 
 namespace Zadanie_1_programowanie_obiektowe
 {
-    internal class Graniastoslup
+    public class Graniastoslup : IObjetosc
     {
         private float wysokoscFigury3D;
         private float szerokoscFigury3D;
         private float dlugoscFigury3D;
+
+        public static string ZobaczWielkosc(Graniastoslup graniastoslup)
+        {
+            if (graniastoslup.KalkulatorObjetosci() > 400)
+                return "Graniastoslup jest duży";
+            else if (graniastoslup.KalkulatorObjetosci() > 200)
+                return "Graniastoslup jest sredni;";
+            else
+                return "Graniastoslup jest mały";
+
+
+        }
+
+
         public float WysokoscFigury3D
         {
             get
@@ -111,5 +125,24 @@ namespace Zadanie_1_programowanie_obiektowe
                 2 * (szerokoscFigury3D * wysokoscFigury3D);
             return pole;
         }
+
+        public override string ToString()
+        {
+            return $"Graniastoslup o polu podstawy rownym { szerokoscFigury3D* dlugoscFigury3D} cm^2 i wysokosci {wysokoscFigury3D}";
+
+        }
+
+        /// <summary>
+        /// Oblicza objetosc graniastosłupa 
+        /// </summary>
+        /// <returns>
+        /// zwraca objetosc
+        /// </returns>
+        public float KalkulatorObjetosci()
+        {
+            return szerokoscFigury3D * dlugoscFigury3D * wysokoscFigury3D;
+        }
+
+
     }
 }
