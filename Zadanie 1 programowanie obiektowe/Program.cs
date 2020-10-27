@@ -16,6 +16,7 @@ namespace Zadanie_1_programowanie_obiektowe
     {
         static void Main(string[] args)
         {
+
             // Pętla do wprowadzania zmienny które mają być float'ami/int'ami
             while (true)
             {
@@ -28,6 +29,7 @@ namespace Zadanie_1_programowanie_obiektowe
                 Console.WriteLine("            Figury 3D                      ");
                 Console.WriteLine("4.Szescian");
                 Console.WriteLine("5.Prostopadłościan");
+                Console.WriteLine("6.Wylosowanie n liczby graniastoslupow");
                 Console.WriteLine("9.EXIT");
 
                 try
@@ -39,18 +41,20 @@ namespace Zadanie_1_programowanie_obiektowe
                     {
                         Environment.Exit(0);
                     }
+                    float dlugosc = 0;
                     // wprowadzenie dlugosci (a)
-
-                    Console.Write("Wprowadz długość: ");
-                    float dlugosc = Convert.ToInt32(Console.ReadLine());
-
+                    if (i != 6)
+                    {
+                        Console.Write("Wprowadz długość: ");
+                        dlugosc = Convert.ToInt32(Console.ReadLine());
+                    }
                     // Zmienne do nie wywalania błedu z odwołanie do metody NumerMenu
                     float wysokoscFigury3D = 0;
                     float wysokoscFigury2D = 0;
                     float szerokosc = 0;
 
 
-                    if(i == 4)
+                    if (i == 4)
                     {
                         wysokoscFigury3D = dlugosc;
                         szerokosc = dlugosc;
@@ -58,7 +62,7 @@ namespace Zadanie_1_programowanie_obiektowe
 
 
                     // niepotrzebana Ci szerokosc w kawdracie lub trójkacie 
-                    if (i != 1 & i != 3 & i != 4)
+                    if (i == 2  || i == 5 )
                     {
                         //wprowadzenie szerokosci(b)
                         Console.Write("Wprowadz szerokość: ");
@@ -79,9 +83,29 @@ namespace Zadanie_1_programowanie_obiektowe
                         Console.Write("Wprowadz wysokość danej bryły: ");
                         wysokoscFigury3D = Convert.ToInt32(Console.ReadLine());
                     }
+                    if (i == 6)
+                    {
+                        Console.Write("Wprowadz ile ma zostać stowrzone losowych graniastoslupow: ");
+                        int ilosc = Convert.ToInt32(Console.ReadLine());
+                        Random random = new Random();
+                        Graniastoslup[] graniastoslups = new Graniastoslup[ilosc];
+                        for (int j = 0; j < ilosc; j++) // chyba ładniej było by użyć foreach
+                        {
+                            dlugosc = random.Next(1, 20);
+                            szerokosc= random.Next(1, 20);
+                            wysokoscFigury3D = random.Next(1, 20);
 
-                    // Metoda switch
-                    NumerMenu(i, dlugosc, szerokosc, wysokoscFigury2D, wysokoscFigury3D);
+                            graniastoslups[j] = new Graniastoslup(dlugosc, szerokosc, wysokoscFigury3D);
+                            Console.WriteLine(graniastoslups[j].ToString());
+                            Console.WriteLine(Graniastoslup.ZobaczWielkosc(graniastoslups[j]));
+                        }
+
+                    }
+                    if (i != 6)
+                    {
+                        // Metoda switch
+                        NumerMenu(i, dlugosc, szerokosc, wysokoscFigury2D, wysokoscFigury3D);
+                    }
                     break;
                 }
 

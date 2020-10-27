@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\borsu\\source\\repos\\bort768\\Szkola-zadania\\Zadanie 1 programowanie obiektowe\\Zadanie 1 programowanie obiektowe.csproj": {}
+    "C:\\Users\\borsu\\Source\\Repos\\bort768\\Szkola-zadania\\Zadanie 1 programowanie obiektowe\\Zadanie 1 programowanie obiektowe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\borsu\\source\\repos\\bort768\\Szkola-zadania\\Zadanie 1 programowanie obiektowe\\Zadanie 1 programowanie obiektowe.csproj": {
+    "C:\\Users\\borsu\\Source\\Repos\\bort768\\Szkola-zadania\\Zadanie 1 programowanie obiektowe\\Zadanie 1 programowanie obiektowe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borsu\\source\\repos\\bort768\\Szkola-zadania\\Zadanie 1 programowanie obiektowe\\Zadanie 1 programowanie obiektowe.csproj",
+        "projectUniqueName": "C:\\Users\\borsu\\Source\\Repos\\bort768\\Szkola-zadania\\Zadanie 1 programowanie obiektowe\\Zadanie 1 programowanie obiektowe.csproj",
         "projectName": "Zadanie 1 programowanie obiektowe",
-        "projectPath": "C:\\Users\\borsu\\source\\repos\\bort768\\Szkola-zadania\\Zadanie 1 programowanie obiektowe\\Zadanie 1 programowanie obiektowe.csproj",
+        "projectPath": "C:\\Users\\borsu\\Source\\Repos\\bort768\\Szkola-zadania\\Zadanie 1 programowanie obiektowe\\Zadanie 1 programowanie obiektowe.csproj",
         "packagesPath": "C:\\Users\\borsu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borsu\\source\\repos\\bort768\\Szkola-zadania\\Zadanie 1 programowanie obiektowe\\obj\\",
+        "outputPath": "C:\\Users\\borsu\\Source\\Repos\\bort768\\Szkola-zadania\\Zadanie 1 programowanie obiektowe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\borsu\\AppData\\Roaming\\NuGet\\NuGet.Config",
